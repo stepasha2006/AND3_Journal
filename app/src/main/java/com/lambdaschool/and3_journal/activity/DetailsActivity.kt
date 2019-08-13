@@ -43,10 +43,7 @@ class DetailsActivity : AppCompatActivity() {
             }
 
             override fun onProgressChanged(seekBar: SeekBar, progress: Int, fromUser: Boolean) {
-                // TODO Auto-generated method stub
-
                 entry.rating = progress
-
             }
         });
     }
