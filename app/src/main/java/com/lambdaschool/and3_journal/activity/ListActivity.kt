@@ -5,6 +5,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.lambdaschool.and3_journal.EntryListAdapter
@@ -37,10 +38,20 @@ class ListActivity : AppCompatActivity() {
         }
 
         list_layout.setHasFixedSize(false)
-        val manager = StaggeredGridLayoutManager(3, RecyclerView.VERTICAL)
+//        val manager = StaggeredGridLayoutManager(3, RecyclerView.VERTICAL)
+        val manager = LinearLayoutManager(this)
 
         list_layout.layoutManager = manager
         list_layout.adapter = adapter
+
+        addSampleEntries()
+    }
+
+    fun addSampleEntries() {
+        for(i in 0..20) {
+            entries.add(Entry())
+        }
+        adapter.notifyDataSetChanged()
     }
 
     /**

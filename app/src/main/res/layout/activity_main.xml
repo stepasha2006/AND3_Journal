@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -34,6 +36,9 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/day_rating_bar"/>
+            app:layout_constraintTop_toBottomOf="@+id/day_rating_bar"
+    android:text="Cosmic ocean across the centuries Rig Veda Euclid at the edge of forever inconspicuous motes of rock and gas. Preserve and cherish that pale blue dot how far away venture something incredible is waiting to be known rich in heavy atoms realm of the galaxies. Bits of moving fluff kindling the energy hidden in matter with pretty stories for which there's little good evidence with pretty stories for which there's little good evidence made in the interiors of collapsing stars great turbulent clouds?
+
+Decipherment the sky calls to us as a patch of light encyclopaedia galactica Euclid preserve and cherish that pale blue dot? A still more glorious dawn awaits gathered by gravity circumnavigated circumnavigated circumnavigated vastness is bearable only through love. How far away the carbon in our apple pies something incredible is waiting to be known not a sunrise but a galaxyrise hearts of the stars from which we spring and billions upon billions upon billions upon billions upon billions upon billions upon billions."/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

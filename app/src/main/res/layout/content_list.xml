@@ -11,6 +11,7 @@
 
     <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/list_layout"
+            tools:listitem="@layout/entry_item_layout"
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
