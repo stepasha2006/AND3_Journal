@@ -29,6 +29,16 @@ class ListActivity : AppCompatActivity() {
         setContentView(R.layout.activity_list)
         setSupportActionBar(toolbar)
 
+        //TODO this code was used for debugging on monday
+        val someArray = intArrayOf(0, 1, 2, 4)
+        try {
+            someArray[0]
+            someArray[4]
+            someArray.get(4)
+        }catch (e: ArrayIndexOutOfBoundsException){
+            e.printStackTrace()
+        }
+
         // S01M03-4 create intent to start details activity and wait for result
         fab.setOnClickListener { view ->
             val intent = Intent(this, DetailsActivity::class.java)
